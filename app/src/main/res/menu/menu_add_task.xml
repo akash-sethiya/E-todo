@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:etodo="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id = "@+id/menu_saveTask"
+        android:title="saveTask"
+        android:icon="@drawable/save_task_icon"
+        etodo:showAsAction="always"
+        />
+    <item
+        android:id = "@+id/menu_cancelTask"
+        android:title="cancelTask"
+        android:icon="@drawable/cancel_task_icon"
+        etodo:showAsAction="always"
+        />
+</menu>
